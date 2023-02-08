@@ -11,7 +11,7 @@ const query = async (prompt: string, chatId: string, model: string) => {
       frequency_penalty: 0,
       presence_penalty: 0,
     }).then((res) => res.data.choices[0].text)
-    .catch((err) =>  "Server Overload, come back later\nApologies for the inconvenience");
+    .catch((err) =>  "Server Overload, come back later\nApologies for the inconvinence");
   return res;
 };
 
